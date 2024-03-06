@@ -231,11 +231,11 @@ const ComingSoon = () => {
         <Title  className={isMobileNavVisible ? "hide" : ""}>
           <TypeAnimation
             sequence={[
-              "NUOS Magicko", // Text 1
+              "Coming Soon...", // Text 1
               1000, // Pause after Text 1
               "", // Clear Text 1
               1000, // Pause before showing Text 2 (adjust this value as needed)
-              "Coming Soon", // Text 2
+              "NUOS Magicko", // Text 2
               1000, // Pause after Text 2 (adjust or remove this based on your preference)
             ]}
             wrapper="span" // Wrap text in a span (this is default)
@@ -249,7 +249,9 @@ const ComingSoon = () => {
         </Description>
       </Container>s 
       <Footer>
-        <Description>NUOS Gmail : account@realmagicko.com</Description>
+        <Description>NUOS Gmail : info@nuosmagicko.com</Description>
+        
+        <Description>NUOS Phone : call +66 92 243 0157</Description>
       </Footer>
     </>
   );
